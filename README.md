@@ -24,9 +24,7 @@ HTTPS: <https://github.com/Sebastianmoldrup/dotfiles.git>
 
 # Setup stow/symlinks
 
-1. `stow zsh`
-2. `stow git`
-3. `stow nvim`
+``cd ~/.dotfiles`` then run ``stow *``
 
 ## Repository structure
 
@@ -43,11 +41,6 @@ dotfiles/
 └── README.md
 ```
 
-# Shell setup
-
-```
-export ZDOTDIR="$HOME/.config/zsh"
-```
 
 # Philosophy
 
