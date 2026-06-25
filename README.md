@@ -19,7 +19,8 @@ My personal macOS/Linux development environment. Inspired by other developers to
 
 # Clone repository
 
-<https://github.com/Sebastianmoldrup/dotfiles.git>
+Github CLI: gh repo clone Sebastianmoldrup/dotfiles
+HTTPS: <https://github.com/Sebastianmoldrup/dotfiles.git>
 
 # Setup stow/symlinks
 
