@@ -22,7 +22,7 @@ My personal macOS/Linux development environment. Inspired by other developers to
 Github CLI: gh repo clone Sebastianmoldrup/dotfiles
 HTTPS: <https://github.com/Sebastianmoldrup/dotfiles.git>
 
-# Setup stow/symlinks
+# GNU stow setup for symlinks 
 
 ``cd ~/.dotfiles`` then run ``stow *``
 
