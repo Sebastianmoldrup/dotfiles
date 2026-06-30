@@ -21,4 +21,3 @@ vim.keymap.set("n", "<C-k>", "<C-w>k")
 -- command-line movement
 vim.keymap.set("c", "<C-a>", "<Home>")
 vim.keymap.set("c", "<C-e>", "<End>")
-

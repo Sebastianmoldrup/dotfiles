@@ -156,3 +156,4 @@ esac
 # pnpm end
 export PATH="/Users/sebastianmoldrup/.config/herd-lite/bin:$PATH"
 export PHP_INI_SCAN_DIR="/Users/sebastianmoldrup/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
+export PATH="$HOME/.local/bin:$PATH"

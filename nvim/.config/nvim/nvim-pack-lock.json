@@ -5,13 +5,21 @@
       "src": "https://github.com/goolord/alpha-nvim"
     },
     "blink.cmp": {
-      "rev": "bda905a4bf1b3edfa708b0be193b8c63d8620c96",
+      "rev": "9b189bb2a0e03412e0e901dfbd09904f86cd593c",
       "src": "https://github.com/saghen/blink.cmp",
       "version": "1.0.0 - 2.0.0"
+    },
+    "codediff.nvim": {
+      "rev": "7608f3b436ce1f84a4888f75e53079caa981a2e9",
+      "src": "https://github.com/esmuellert/codediff.nvim"
     },
     "conform.nvim": {
       "rev": "619363c30309d29ffa631e67c8183f2a72caa373",
       "src": "https://github.com/stevearc/conform.nvim"
+    },
+    "flash.nvim": {
+      "rev": "fcea7ff883235d9024dc41e638f164a450c14ca2",
+      "src": "https://github.com/folke/flash.nvim"
     },
     "kanagawa.nvim": {
       "rev": "bb85e4bfc8d89b0e62c8fa53ccdd13d12e2f77b3",
@@ -53,6 +61,10 @@
       "rev": "4916d6592ede8c07973490d9322f187e07dfefac",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
     },
+    "nvim-ts-autotag": {
+      "rev": "88c1453db4ba7dd24131086fe51fdf74e587d275",
+      "src": "https://github.com/windwp/nvim-ts-autotag"
+    },
     "plenary.nvim": {
       "rev": "74b06c6c75e4eeb3108ec01852001636d85a932b",
       "src": "https://github.com/nvim-lua/plenary.nvim"
@@ -64,6 +76,10 @@
     "rose-pine": {
       "rev": "ff483051a47e27d84bdef47703538df1ed9f4a47",
       "src": "https://github.com/rose-pine/neovim"
+    },
+    "smear-cursor.nvim": {
+      "rev": "9e9378d6ee34bb3782e0e8c63d9ec8ca618b479b",
+      "src": "https://github.com/sphamba/smear-cursor.nvim"
     },
     "telescope.nvim": {
       "rev": "427b576c16792edad01a92b89721d923c19ad60f",

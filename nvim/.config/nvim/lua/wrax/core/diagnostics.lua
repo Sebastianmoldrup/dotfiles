@@ -1,8 +1,23 @@
--- lsp diagnostics style
 vim.diagnostic.config({
-  underline = false,
+  underline = true,
   severity_sort = true,
   update_in_insert = false,
-  float = { source = "if_many" },
+  virtual_text = {
+    prefix = "●",
+    spacing = 2,
+    source = "if_many",
+  },
+  signs = {
+    text = {
+      [vim.diagnostic.severity.ERROR] = "✘",
+      [vim.diagnostic.severity.WARN]  = "▲",
+      [vim.diagnostic.severity.HINT]  = "⚑",
+      [vim.diagnostic.severity.INFO]  = "»",
+    },
+  },
+  float = {
+    border = "rounded",
+    source = true,
+  },
   jump = { float = true },
 })

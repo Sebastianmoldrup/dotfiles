@@ -16,9 +16,29 @@ telescope.setup({
       n = { ["q"] = require("telescope.actions").close },
     },
   },
-  pickers = {
-    find_files = { hidden = true },
-  },
+	pickers = {
+	  find_files = {
+	    hidden = true,
+	    find_command = {
+	      "rg", "--files", "--hidden",
+	      "--glob", "!**/.git/*",
+	      "--glob", "!**/node_modules/*",
+	      "--glob", "!**/.next/*",
+	      "--glob", "!**/dist/*",
+	      "--glob", "!**/.cache/*",
+	    },
+	  },
+	  live_grep = {
+	    additional_args = {
+	      "--hidden",
+	      "--glob", "!**/.git/*",
+	      "--glob", "!**/node_modules/*",
+	      "--glob", "!**/.next/*",
+	      "--glob", "!**/dist/*",
+	      "--glob", "!**/.cache/*",
+	    },
+	  },
+	},
 })
 
 local builtin = require("telescope.builtin")

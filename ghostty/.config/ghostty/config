@@ -13,3 +13,5 @@ confirm-close-surface = false
 keybind = cmd+1=toggle_quick_terminal
 quick-terminal-animation-duration = 0.1
 quick-terminal-position = center
+
+custom-shader = ~/.config/ghostty/shaders/cursor.glsl
